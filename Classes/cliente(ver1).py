@@ -1,12 +1,12 @@
 import random
 
 class Cliente:
-  def __init__(self, nomeCliente, senha, email, telefone, endereco, id):
+  def __init__(self, nomeUsuario, senha, email, telefone, endereco, id):
     self.nomeUsuario = nomeUsuario=False
     self.__senha = senha
     self.email = email
     self.telefone = telefone
-    self.endereço = endereço
+    self.endereco = endereco
     self.id = []
 
   
